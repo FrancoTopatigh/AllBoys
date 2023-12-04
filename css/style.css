@@ -11,49 +11,50 @@ body{
 }
 
 /* HEADER */
-li, a{
-  font-weight: 500px;
-  font-size: 16px;
-  text-decoration: none;
-  color: white;
-}
-
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
+#header{
   background-color: black;
 }
 
 header img {
-  height: 80px;  
+  height: 70px;  
   cursor: pointer;
 }
 
-.nav-links{
-  list-style: none;
+.navbar {
   display: flex;
-  align-items: center;
-  /* MARGIN-RIGHT PARA QUE QUEDE CENTRADO LOS ITEM LIST */
-  margin-right: 390px;
+  justify-content: space-between; /* Distribuye los elementos a los extremos del navbar */
+  padding: 15px;
 }
 
-.nav-links li{
-  padding: 0 20px;
+.navbar-nav {
+  margin-left: auto; /* Mueve la lista de navegación a la derecha */
 }
 
-.nav-links li a{
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  font-size: 16px;
-  transition: all 0.3s ease 0s;
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Ajusta el espacio entre elementos de la lista */
 }
 
-.nav-links li a:hover{
-  color: #626161;
+
+.navbar-nav .nav-link {
+  color: white; /* Cambia el color del texto a blanco */
 }
+.navbar-nav .nav-link:hover {
+  color: grey; /* Cambia el color del texto a blanco */
+}
+
+
+
+
+.navbar-toggler-icon {
+  color: red;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: gray; /* Cambia el color del icono en estado de "hover" */
+}
+
+
+
 
 /*  MAIN INDEX */
 
