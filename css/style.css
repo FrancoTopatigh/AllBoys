@@ -45,16 +45,6 @@ header img {
 
 
 
-.navbar-toggler-icon {
-  color: red;
-}
-
-.navbar-toggler:hover .navbar-toggler-icon {
-  background-color: gray; /* Cambia el color del icono en estado de "hover" */
-}
-
-
-
 
 /*  MAIN INDEX */
 
@@ -189,5 +179,35 @@ a:hover{
 /* RESPONSIVE */
 /* VISTA MOBILE */
 @media(max-width: 600px){
-  
+  .h2-index, .h2-historia, .h2-socios, .h2-signin, .h2-restablecer{
+    font-size: 22px;
+  }
+
+  p{
+    margin: 10px 40px ;
+    font-size: 14px;
+  }
+
+  .p-index, .p-historia, .p-socios{
+    font-size: 16px;
+  }
+
+  .container-signin div p, .container-restablecer div p{
+    font-size: 16px;
+  }
+
+  #footer p{
+    font-size: 18px;
+  }
+
+  #footer .social-icon{
+    font-size: 22px;
+  }
+
+  .p-historia img{
+    width: 370px;
+    height: 240px;
+  }
+
+
 }
