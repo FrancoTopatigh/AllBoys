@@ -10,6 +10,14 @@ body{
   background-image: url(../multimedia/background.jpg);
 }
 
+main{
+  width: 90vw;
+  margin: 0 auto;
+  padding: 20px 20px;
+  min-height: calc(100vh - 211px - 58px);
+}
+
+
 /* HEADER */
 #header{
   background-color: black;
@@ -61,7 +69,7 @@ p{
   text-align: justify;
   font-size: 18px;
   line-height: 2.2;
-  margin: auto 140px 20px 140px;
+  margin: auto 50px 20px 50px;
 }
 
 .p-historia img{
@@ -83,7 +91,7 @@ p{
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   object-fit: cover;
 }
 
@@ -95,6 +103,7 @@ p{
   text-align: center;
   margin-top: 20px;
   padding: 10px;
+  
 }
 
 footer a{
@@ -187,7 +196,7 @@ a:hover{
   }
 
   p{
-    margin: 10px 40px ;
+    margin: 10px 20px ;
     font-size: 14px;
   }
 
@@ -223,12 +232,16 @@ a:hover{
 
   .p-index, .p-historia, .p-socios{
     font-size: 20px;
-    margin: 10px 50px;
+    margin: 10px 30px;
   }
 
   p{
     margin: 10px 40px ;
     font-size: 18px;
+  }
+
+  .p-historia p{
+    margin: 10px 10px;
   }
 
   #footer p{
@@ -275,8 +288,17 @@ a:hover{
 }
 
 @media only screen and (min-width: 1024px){
-  .h2-index, .h2-historia, .h2-socios, .h2-signin, .h2-restablecer{
+    .h2-index, .h2-historia, .h2-socios, .h2-signin, .h2-restablecer{
     font-size: 34px;
     font-weight: bold;
   }
+
+  #footer {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: sticky;
+    bottom: 0;
+  }
+  
 }
