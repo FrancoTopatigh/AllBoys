@@ -54,6 +54,7 @@ header img {
 
 
 
+
 /*  MAIN INDEX */
 
 h2{
@@ -129,7 +130,8 @@ footer p{
 
 .social-icon:hover{
   color: grey;
-    transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
 }
 
 /* SOCIO FORMULARIO */
